@@ -1,7 +1,3 @@
----
-title: Home
----
-
 # Home
 
 ## Bio
