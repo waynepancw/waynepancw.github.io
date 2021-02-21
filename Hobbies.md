@@ -1,11 +1,4 @@
 ---
-title: Background
+title: Hobbies
 ---
 
-# Background
-
-## Introduction
-
-## Conclusions
-
-## References
