@@ -14,4 +14,4 @@ title: Research
 ## Pneumatic stimulator
 
 ## Brushless Motor Characterization
-
+[link to Brushless motor characterization](/Project1)
