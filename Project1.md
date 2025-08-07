@@ -1,3 +1,0 @@
----
-title: Brushless Motor Characterization
----
