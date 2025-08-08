@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wayne Pan - Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>Wayne Pan</h2>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#research" class="nav-link">Research</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>Wayne Pan</h1>
+                <p class="hero-subtitle">Ph.D. Candidate & Researcher</p>
+                <p class="hero-description">
+                    Passionate about wearable sensing in applications of robotics, human-machine interactions, and healthcare.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#research" class="btn btn-primary">View Research</a>
+                    <a href="#projects" class="btn btn-secondary">See Projects</a>
+                </div>
+                <div class="social-links">
+                    <a href="http://www.linkedin.com/in/chien-wen-pan" target="_blank" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/waynepancw" target="_blank" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="mailto:cwpan.wayne@gmail.com" aria-label="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                    <!-- <a href="https://orcid.org/your-orcid" target="_blank" aria-label="ORCID">
+                        <i class="fab fa-orcid"></i>
+                    </a> -->
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container">
+                <h2>About Me</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>
+                            My doctoral research works on modeling physiological and biomechanical signals (PPG, EMG, IMU) to extract actionable insights in wearable and robotic platforms.
+                            I also build autonomous systems independently, including deploying reinforcement learning policies on quadrupeds and creating a vehicle digital twin with a live data pipeline.
+                            Passionate about advancing wearable health technologies, assistive robotics, and embodied AI by integrating physics-informed models on real-world hardware.
+                        </p>
+                        <p>
+                            Throughout my academic journey, I've developed expertise in physics-informed machine learning and nonlinear systems theory for wearable sensor data, 
+                            enabling data-efficient and interpretable models for robotic state estimation and control, and healthcare applications.
+                        </p>
+                        <div class="skills">
+                            <h3>Key Skills</h3>
+                            <div class="skill-tags">
+                                <span class="skill-tag">Signal processing</span>
+                                <span class="skill-tag">System identification</span>
+                                <span class="skill-tag">Machine learning</span>
+                                <span class="skill-tag">Robotics</span>
+                                <!-- <span class="skill-tag">Skill</span> -->
+                                <!-- Add your actual skills -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-user"></i>
+                            <p>Add photo here</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="research" class="research">
+            <div class="container">
+                <h2>Research</h2>
+                <p class="section-subtitle">Current and past research projects</p>
+                
+                <div class="research-grid">
+                    <div class="research-card">
+                        <div class="card-header">
+                            <h3>EMG-based gait prediction using Koopman-inspired method</h3>
+                            <span class="status ongoing">Ongoing</span>
+                        </div>
+                        <!-- <p class="card-description">
+                            Underconstruction.
+                        </p> -->
+                        <!-- <div class="card-tags">
+                            <span class="tag">Machine Learning</span>
+                            <span class="tag">Data Science</span>
+                        </div> -->
+                        <div class="card-links">
+                            <a href="research/research-project-1.html" class="link">Read More</a>
+                            <!-- <a href="#" class="link">Code</a> -->
+                        </div>
+                    </div>
+
+                    <div class="research-card">
+                        <div class="card-header">
+                            <h3>Integrating biophysical dynamics with data-driven method for BP estimation using PPG</h3>
+                            <span class="status ongoing">Ongoing</span>
+                        </div>
+                        <!-- <p class="card-description">
+                            Underconstruction.
+                        </p> -->
+                        <!-- <div class="card-tags">
+                            <span class="tag">Computer Vision</span>
+                            <span class="tag">Deep Learning</span>
+                        </div> -->
+                        <div class="card-links">
+                            <a href="research/research-project-2.html" class="link">Read More</a>
+                            <!-- <a href="#" class="link">Dataset</a> -->
+                        </div>
+                    </div>
+                </div>
+
+                <!-- <div class="publications">
+                    <h3>Publications</h3>
+                    <div class="publication-list">
+                        <div class="publication-item">
+                            <h4>Publication Title</h4>
+                            <p class="authors">Author Names</p>
+                            <p class="venue">Conference/Journal Name, Year</p>
+                            <div class="pub-links">
+                                <a href="#" class="link">PDF</a>
+                                <a href="#" class="link">DOI</a>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </section>
+
+        <section id="projects" class="projects">
+            <div class="container">
+                <h2>Side Projects</h2>
+                <p class="section-subtitle">Personal side projects for fun</p>
+                
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <div class="image-placeholder">
+                                <i class="fas fa-code"></i>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>spot-mini</h3>
+                            <p>Adapting an open-source quadruped, bridging direct hardware control with custom reinforcement learning policies.</p>
+                            <!-- <div class="project-tech">
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">Flask</span>
+                                <span class="tech-tag">PostgreSQL</span>
+                            </div> -->
+                            <div class="project-links">
+                                <a href="projects/project-1.html" class="link">
+                                    <i class="fas fa-info-circle"></i> Details
+                                </a>
+                                <a href="#" class="link">
+                                    <i class="fab fa-github"></i> Code
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image">
+                            <div class="image-placeholder">
+                                <i class="fas fa-mobile-alt"></i>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Miata digital-twin</h3>
+                            <p>Building a live digital twin of a car, streaming real-world sensor data scanned from OBD-II to a Unity simulation.</p>
+                            <!-- <div class="project-tech">
+                                <span class="tech-tag">React</span>
+                                <span class="tech-tag">Node.js</span>
+                                <span class="tech-tag">MongoDB</span>
+                            </div> -->
+                            <div class="project-links">
+                                <a href="projects/project-2.html" class="link">
+                                    <i class="fas fa-info-circle"></i> Details
+                                </a>
+                                <a href="#" class="link">
+                                    <i class="fab fa-github"></i> Code
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2>Get In Touch</h2>
+                <p class="section-subtitle">Let's connect and collaborate</p>
+                
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <p>cwpan.wayne@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fab fa-linkedin"></i>
+                            <div>
+                                <h4>LinkedIn</h4>
+                                <p>http://www.linkedin.com/in/chien-wen-pan</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Location</h4>
+                                <p>AZ, USA</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- <div class="contact-form">
+                        <form>
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" rows="5" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Send Message</button>
+                        </form>
+                    </div> -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Wayne Pan. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

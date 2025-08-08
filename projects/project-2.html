@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 2 - Wayne Pan</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/project-page.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="../index.html"><h2>Wayne Pan</h2></a>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="../index.html#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="../index.html#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="../index.html#research" class="nav-link">Research</a>
+                </li>
+                <li class="nav-item">
+                    <a href="../index.html#projects" class="nav-link active">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="../index.html#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="project-page">
+        <div class="project-header">
+            <div class="container">
+                <nav class="breadcrumb">
+                    <a href="../index.html">Home</a> / 
+                    <a href="../index.html#projects">Projects</a> / 
+                    <span>Miata digital-twin</span>
+                </nav>
+                
+                <h1>Miata digital-twin</h1>
+                <div class="project-meta">
+                    <span class="status ongoing">In Progress</span>
+                    <span class="date">2025 - Present</span>
+                    <!-- <span class="category">Mobile App</span> -->
+                </div>
+                
+                <p class="project-subtitle">
+                    Building a live digital twin of a car, streaming real-world sensor data scanned from OBD-II to a Unity simulation.
+                </p>
+
+                <div class="project-links-header">
+                    <a href="#" class="btn btn-primary">
+                        <i class="fab fa-github"></i> View Code
+                    </a>
+                    <!-- <a href="#" class="btn btn-secondary">
+                        <i class="fas fa-download"></i> Download App
+                    </a> -->
+                </div>
+            </div>
+        </div>
+
+        <div class="project-content">
+            <div class="container">
+                <div class="content-grid">
+                    <div class="main-content">
+                        <section class="project-overview">
+                            <h2>Project Overview</h2>
+                            <p>
+                                This project creates a high-fidelity digital twin of my 1999 Mazda Miata. 
+                                A Raspberry Pi 5 collects live data from the car's OBD-II port, GPS, 
+                                and battery sensors, streaming it via MQTT to a ThingsBoard dashboard and 
+                                a physics-based 3D model in the Unity game engine. The goal is to enable 
+                                real-time monitoring, performance analysis, and predictive modeling of 
+                                component wear, bridging physical hardware with a live virtual simulation.
+                            </p>
+                        </section>
+
+                        <!-- <section class="current-progress">
+                            <h2>Current Progress</h2>
+                            <div class="progress-timeline">
+                                <div class="progress-item completed">
+                                    <div class="progress-marker"></div>
+                                    <div class="progress-content">
+                                        <h4>Planning & Design</h4>
+                                        <p>Completed initial planning, wireframes, and UI/UX design.</p>
+                                        <span class="progress-date">Month 1</span>
+                                    </div>
+                                </div>
+                                <div class="progress-item completed">
+                                    <div class="progress-marker"></div>
+                                    <div class="progress-content">
+                                        <h4>Core Development</h4>
+                                        <p>Built the main functionality and core features.</p>
+                                        <span class="progress-date">Month 2-3</span>
+                                    </div>
+                                </div>
+                                <div class="progress-item current">
+                                    <div class="progress-marker"></div>
+                                    <div class="progress-content">
+                                        <h4>Testing & Refinement</h4>
+                                        <p>Currently working on testing, bug fixes, and performance optimization.</p>
+                                        <span class="progress-date">Current</span>
+                                    </div>
+                                </div>
+                                <div class="progress-item">
+                                    <div class="progress-marker"></div>
+                                    <div class="progress-content">
+                                        <h4>Launch & Distribution</h4>
+                                        <p>Plan to launch on app stores and gather user feedback.</p>
+                                        <span class="progress-date">Next Month</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </section> -->
+
+                        <!-- <section class="features">
+                            <h2>Planned Features</h2>
+                            <div class="feature-grid">
+                                <div class="feature-item">
+                                    <div class="feature-icon">
+                                        <i class="fas fa-check-circle"></i>
+                                    </div>
+                                    <div class="feature-content">
+                                        <h4>Core Feature 1 ✓</h4>
+                                        <p>This feature is completed and working.</p>
+                                    </div>
+                                </div>
+                                <div class="feature-item">
+                                    <div class="feature-icon">
+                                        <i class="fas fa-clock"></i>
+                                    </div>
+                                    <div class="feature-content">
+                                        <h4>Feature 2 (In Progress)</h4>
+                                        <p>Currently working on implementing this feature.</p>
+                                    </div>
+                                </div>
+                                <div class="feature-item">
+                                    <div class="feature-icon">
+                                        <i class="fas fa-lightbulb"></i>
+                                    </div>
+                                    <div class="feature-content">
+                                        <h4>Future Feature</h4>
+                                        <p>Planned for a future update after initial launch.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </section> -->
+
+                        <!-- <section class="technical-details">
+                            <h2>Technical Architecture</h2>
+                            <p>
+                                Describe the technical decisions you've made for this project. What frameworks 
+                                are you using? How are you structuring the code? What design patterns are you following?
+                            </p>
+
+                            <div class="architecture-diagram">
+                                <div class="arch-placeholder">
+                                    <i class="fas fa-project-diagram"></i>
+                                    <p>Add architecture diagram here</p>
+                                </div>
+                            </div>
+                        </section> -->
+
+                        <!-- <section class="development-blog">
+                            <h2>Development Updates</h2>
+                            <div class="blog-entries">
+                                <div class="blog-entry">
+                                    <div class="blog-date">January 2025</div>
+                                    <h4>Latest Update</h4>
+                                    <p>Share recent progress, challenges overcome, or new features added.</p>
+                                </div>
+                                <div class="blog-entry">
+                                    <div class="blog-date">December 2024</div>
+                                    <h4>Beta Testing Results</h4>
+                                    <p>Results from beta testing and feedback from users.</p>
+                                </div>
+                                <div class="blog-entry">
+                                    <div class="blog-date">November 2024</div>
+                                    <h4>Project Kickoff</h4>
+                                    <p>Initial project setup and development environment configuration.</p>
+                                </div>
+                            </div>
+                        </section> -->
+                    </div>
+
+                    <div class="sidebar">
+                        <!-- <div class="sidebar-section">
+                            <h3>Project Status</h3>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 75%"></div>
+                            </div>
+                            <p>75% Complete</p>
+                            
+                            <div class="fact-list">
+                                <div class="fact-item">
+                                    <strong>Started:</strong> October 2024
+                                </div>
+                                <div class="fact-item">
+                                    <strong>Est. Completion:</strong> March 2025
+                                </div>
+                                <div class="fact-item">
+                                    <strong>Team:</strong> Solo project
+                                </div>
+                            </div>
+                        </div> -->
+
+                        <div class="sidebar-section">
+                            <h3>Technologies</h3>
+                            <div class="tech-stack">
+                                <span class="tech-tag">IoT Protocols & Platforms (MQTT & ThingsBoard)</span>
+                                <span class="tech-tag">Game Engine Development (Unity)</span>
+                                <span class="tech-tag">Digital Twin & Simulation Modeling</span>
+                                <!-- <span class="tech-tag">Redux</span>
+                                <span class="tech-tag">Expo</span>
+                                <span class="tech-tag">Jest</span> -->
+                            </div>
+                        </div>
+
+                        <div class="sidebar-section">
+                            <h3>Resources</h3>
+                            <div class="resource-links">
+                                <a href="#" class="resource-link">
+                                    <i class="fab fa-github"></i> Source Code
+                                </a>
+                                <!-- <a href="#" class="resource-link">
+                                    <i class="fas fa-bug"></i> Issue Tracker
+                                </a>
+                                <a href="#" class="resource-link">
+                                    <i class="fas fa-tasks"></i> Project Board
+                                </a>
+                                <a href="#" class="resource-link">
+                                    <i class="fas fa-file-alt"></i> API Docs
+                                </a> -->
+                            </div>
+                        </div>
+
+                        <!-- <div class="sidebar-section">
+                            <h3>Next Milestones</h3>
+                            <div class="milestone-list">
+                                <div class="milestone-item">
+                                    <strong>Beta Release</strong>
+                                    <p>February 2025</p>
+                                </div>
+                                <div class="milestone-item">
+                                    <strong>App Store Launch</strong>
+                                    <p>March 2025</p>
+                                </div>
+                                <div class="milestone-item">
+                                    <strong>Version 2.0</strong>
+                                    <p>Summer 2025</p>
+                                </div>
+                            </div>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Wayne Pan. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>
