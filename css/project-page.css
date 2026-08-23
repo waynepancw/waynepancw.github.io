@@ -18,12 +18,12 @@
 }
 
 .breadcrumb a:hover {
-    color: #1d4ed8;
+    color: var(--primary-dark);
 }
 
 /* Project Header */
 .project-header {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #0e2038 0%, #1b3358 55%, #2c4a70 100%);
     color: white;
     padding: 3rem 0;
     position: relative;
@@ -67,14 +67,15 @@
 }
 
 .project-meta .status.ongoing {
-    background-color: #fbbf24;
-    color: #92400e;
+    background-color: rgba(255, 255, 255, 0.15);
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.4);
 }
 
 .project-meta .status.published,
 .project-meta .status.completed {
-    background-color: #34d399;
-    color: #065f46;
+    background-color: white;
+    color: var(--primary-color);
 }
 
 .project-meta .date,

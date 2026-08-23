@@ -185,7 +185,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
         
         scrollTopBtn.addEventListener('mouseenter', function() {
-            this.style.backgroundColor = '#1d4ed8';
+            this.style.backgroundColor = getComputedStyle(document.documentElement).getPropertyValue('--primary-dark').trim();
             this.style.transform = 'translateY(-2px)';
         });
         
