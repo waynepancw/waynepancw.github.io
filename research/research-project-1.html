@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Research Project 1 - Wayne Pan</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/project-page.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="../index.html"><h2>Wayne Pan</h2></a>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="../index.html#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="../index.html#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="../index.html#research" class="nav-link active">Research</a>
+                </li>
+                <li class="nav-item">
+                    <a href="../index.html#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="../index.html#contact" class="nav-link">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a href="../Resume_CWPan_Robotics_2026.pdf" class="nav-link nav-resume" target="_blank" rel="noopener">
+                        <i class="fas fa-file-arrow-down"></i> Resume
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="project-page">
+        <div class="project-header">
+            <div class="container">
+                <nav class="breadcrumb">
+                    <a href="../index.html">Home</a> / 
+                    <a href="../index.html#research">Research</a> / 
+                    <span>EMG-based gait prediction using Koopman-inspired method</span>
+                </nav>
+                
+                <h1>EMG-based gait prediction using Koopman-inspired method</h1>
+                <div class="project-meta">
+                    <span class="status published">Published</span>
+                    <span class="date">Ph.D. research, Arizona State University</span>
+                </div>
+
+                <p class="project-subtitle">
+                    A two-stage Koopman-based pipeline that predicts lower-limb kinematics from EMG signals,
+                    achieving 95% accuracy and stable near-future multi-step prediction.
+                </p>
+            </div>
+        </div>
+
+        <div class="project-content">
+            <div class="container">
+                <div class="content-grid">
+                    <div class="main-content">
+                        <section class="abstract">
+                            <h2>Abstract</h2>
+                            <p>
+                                Accurate, near-future prediction of lower-limb kinematics from surface EMG is valuable for
+                                assistive and rehabilitation robotics, but nonlinear neuromuscular dynamics make this
+                                challenging for purely data-driven models. This work develops a two-stage, Koopman-inspired
+                                pipeline that lifts EMG signals into a space where gait dynamics evolve (near-)linearly,
+                                enabling stable multi-step prediction of lower-limb kinematics. The method achieves 95%
+                                prediction accuracy with stable near-future multi-step prediction, and is published in
+                                <em>IEEE Transactions on Biomedical Engineering</em> (2026).
+                            </p>
+                        </section>
+
+                        <section class="publications">
+                            <h2>Related Publications</h2>
+                            <div class="publication-list">
+                                <div class="publication-item">
+                                    <h4>EMG-based gait estimation and prediction using Koopman-inspired method</h4>
+                                    <p class="authors">C.W. Pan, M. Rahmani, S. Redkar</p>
+                                    <p class="venue">IEEE Transactions on Biomedical Engineering, 2026</p>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+
+                    <div class="sidebar">
+                        <div class="sidebar-section">
+                            <h3>Project Details</h3>
+                            <div class="fact-list">
+                                <div class="fact-item">
+                                    <strong>Status:</strong> Published
+                                </div>
+                                <div class="fact-item">
+                                    <strong>Institution:</strong> Arizona State University
+                                </div>
+                                <div class="fact-item">
+                                    <strong>Collaborators:</strong> M. Rahmani, S. Redkar
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="sidebar-section">
+                            <h3>Resources</h3>
+                            <div class="resource-links">
+                                <a href="#" class="resource-link">
+                                    <i class="fab fa-github"></i> Code Repository
+                                </a>
+                                <!-- <a href="#" class="resource-link">
+                                    <i class="fas fa-database"></i> Dataset
+                                </a> -->
+                                <a href="#" class="resource-link">
+                                    <i class="fas fa-file-pdf"></i> Paper Draft
+                                </a>
+                                <!-- <a href="#" class="resource-link">
+                                    <i class="fas fa-presentation"></i> Presentation
+                                </a> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Wayne Pan. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>
