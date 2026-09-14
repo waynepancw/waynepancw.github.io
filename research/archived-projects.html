@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Archived Projects - Wayne Pan</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/project-page.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="../index.html"><h2>Wayne Pan</h2></a>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="../index.html#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="../index.html#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="../index.html#research" class="nav-link active">Research</a>
+                </li>
+                <li class="nav-item">
+                    <a href="../index.html#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="../CV_CWPan_2026.pdf" class="nav-link nav-resume" target="_blank" rel="noopener">
+                        <i class="fas fa-file-arrow-down"></i> CV
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="project-page">
+        <div class="project-header">
+            <div class="container">
+                <nav class="breadcrumb">
+                    <a href="../index.html">Home</a> /
+                    <a href="../index.html#research">Research</a> /
+                    <span>Archived Projects</span>
+                </nav>
+
+                <h1>Archived Projects</h1>
+                <div class="project-meta">
+                    <span class="status archived">Archived</span>
+                    <span class="date">Earlier hands-on engineering work, 2013&ndash;2021</span>
+                </div>
+
+                <p class="project-subtitle">
+                    <!-- Five earlier hands-on engineering projects that were never published as papers, listed in the
+                    order they appear in my project portfolio: an origami-based passive actuator, an MRI-compatible
+                    pain-evaluation stimulator, a high-temperature bio-compatible 3D printing system, a precision
+                    capillary coating system, and a GRIN probe for in vivo imaging. -->
+                </p>
+            </div>
+        </div>
+
+        <div class="project-content">
+            <div class="container">
+                <div class="main-content" style="max-width: 900px; margin: 0 auto;">
+
+                    <section class="archived-item">
+                        <div class="item-meta">
+                            <span class="item-date">2020/8 &ndash; 2021/7</span>
+                        </div>
+                        <h2>Origami-based passive actuator integrated with layer jamming</h2>
+                        <p class="item-intro">
+                            Prototyped an origami-based passive actuator that can reconfigure itself and engage with
+                            a human user during various activities. The work included: (1) a lower-limb human model
+                            to predict forces and joint torques, verified against forward-dynamics simulation; (2)
+                            an origami prototype integrated with a pneumatic chamber for layer jamming; and (3) a 2D
+                            origami pattern with multiple degrees of freedom that constrains motion in three
+                            directions.
+                        </p>
+
+                        <div class="figure-gallery">
+                            <figure>
+                                <img src="media/archived/origami-photo-1.jpeg" alt="Origami-based passive actuator prototype held in hand, folded arc shape">
+                                <figcaption>Origami actuator prototype (folded)</figcaption>
+                            </figure>
+                            <figure>
+                                <img src="media/archived/origami-photo-2.jpeg" alt="Origami-based passive actuator prototype, flattened panel view">
+                                <figcaption>Origami actuator prototype (flattened)</figcaption>
+                            </figure>
+                            <figure>
+                                <img src="media/archived/origami-leg-model.png" alt="Lower-limb link model with joint angles used for force and torque prediction">
+                                <figcaption>Lower-limb model for force/torque prediction</figcaption>
+                            </figure>
+                            <figure>
+                                <img src="media/archived/origami-prediction-plot.png" alt="Plot comparing predicted and experimental hip, knee, and ankle joint states over time">
+                                <figcaption>Forward-dynamics vs. experimental joint states</figcaption>
+                            </figure>
+                        </div>
+
+                        <div class="video-gallery">
+                            <div class="video-embed">
+                                <iframe src="https://www.youtube.com/embed/BqVt3d2Whks" title="Origami actuator demo 1" allowfullscreen loading="lazy"></iframe>
+                            </div>
+                            <div class="video-embed">
+                                <iframe src="https://www.youtube.com/embed/H95_SEXxaxM" title="Origami actuator demo 2" allowfullscreen loading="lazy"></iframe>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="archived-item">
+                        <div class="item-meta">
+                            <span class="item-date">2015/12 &ndash; 2016/3</span>
+                        </div>
+                        <h2>An approach for pain evaluation in MRI</h2>
+                        <p class="item-intro">
+                            Designed an MRI-compatible pneumatic stimulator to evaluate pain response, integrating
+                            the device with a pneumatic valve and tubing and characterizing its output. The
+                            stimulating tip (0.8&nbsp;mm radius) produces an output pressure that is a linear
+                            function of the input pressure, P&nbsp;=&nbsp;3.6981x&nbsp;+&nbsp;5.45, reaching the pain
+                            threshold at an input of about 12&nbsp;psi. Also wrote a human-computer interface in
+                            LabVIEW to control the valve output.
+                        </p>
+
+                        <div class="figure-gallery">
+                            <figure>
+                                <img src="media/archived/mri-stimulator-design.png" alt="MRI-compatible pneumatic stimulator system design showing pressure valve, control panel, and finger insertion point">
+                                <figcaption>MRI-compatible pneumatic stimulator design</figcaption>
+                            </figure>
+                        </div>
+                    </section>
+
+                    <section class="archived-item">
+                        <div class="item-meta">
+                            <span class="item-date">2015/08 &ndash; 2016/04</span>
+                        </div>
+                        <h2>3D printing system for high-temperature bio-compatible material</h2>
+                        <p class="item-intro">
+                            Tested the hardware of a compact (&lt;2.2&nbsp;kg), high-precision (up to 50&nbsp;&micro;m)
+                            3D printing system capable of high extrusion rates (up to 8500&nbsp;mm/min) and high
+                            working temperatures (up to 420&deg;C), and ran ASTM mechanical property tests (tensile,
+                            compression, bending) on the printed objects. Main contribution: hardware testing and
+                            mechanical characterization of the printed parts.
+                        </p>
+
+                        <div class="figure-gallery">
+                            <figure>
+                                <img src="media/archived/3dp-system.png" alt="CAD model of the compact high-temperature 3D printing system">
+                                <figcaption>3D printing system (CAD)</figcaption>
+                            </figure>
+                            <figure>
+                                <img src="media/archived/3dp-extruder-design.png" alt="Cross-section CAD drawing of the extruder screw design with feeding, compression, metering, and nozzle zones">
+                                <figcaption>Extruder design (feeding &rarr; compression &rarr; metering &rarr; nozzle)</figcaption>
+                            </figure>
+                            <figure>
+                                <img src="media/archived/3dp-lamination-sample.png" alt="Close-up photo of a 3D printed line-lamination test sample">
+                                <figcaption>Line-lamination test sample</figcaption>
+                            </figure>
+                            <figure>
+                                <img src="media/archived/3dp-compression-chart.png" alt="Bar chart of compression strength versus print temperature">
+                                <figcaption>Compression strength vs. print temperature</figcaption>
+                            </figure>
+                        </div>
+                    </section>
+
+                    <section class="archived-item">
+                        <div class="item-meta">
+                            <span class="item-date">2015/08 &ndash; 2015/12</span>
+                        </div>
+                        <h2>A precision capillary coating system</h2>
+                        <p class="item-intro">
+                            Designed and manufactured all hardware for a capillary coating system used to deposit
+                            thin-film antibody coatings on glass substrates, and contributed to the resulting paper.
+                            The work was published as
+                            <em>&ldquo;A precision capillary coating system and applications&rdquo;</em> in
+                            <em>Smart Science</em>, 4:3, 151&ndash;159, 2016.
+                        </p>
+
+                        <div class="figure-gallery">
+                            <figure>
+                                <img src="media/archived/capillary-coating-photo.jpeg" alt="Photo of the assembled capillary coating system with transparent enclosure">
+                                <figcaption>Capillary coating system (assembled)</figcaption>
+                            </figure>
+                            <figure>
+                                <img src="media/archived/capillary-coating-diagram.png" alt="Labeled diagram of the capillary coating system and thin-film coating process">
+                                <figcaption>System components and coating process</figcaption>
+                            </figure>
+                        </div>
+                    </section>
+
+                    <section class="archived-item">
+                        <div class="item-meta">
+                            <span class="item-date">2013/10 &ndash; 2014/4</span>
+                        </div>
+                        <h2>GRIN probe for in vivo imaging</h2>
+                        <p class="item-intro">
+                            Designed a device to polish GRIN (gradient-index) lenses for
+                            better image quality, and a connector to be sewn onto small animals for in vivo imaging.
+                            Lens polishing used a sequence of 30, 9, 3, and 1&nbsp;&micro;m films plus a final ADS
+                            polish, verified by imaging tissue-paper fibers and pollen samples.
+                        </p>
+
+                        <div class="figure-gallery">
+                            <figure>
+                                <img src="media/archived/grin-probe-design.png" alt="Ray-tracing diagram of the GRIN probe optical design">
+                                <figcaption>GRIN probe optical design</figcaption>
+                            </figure>
+                            <figure>
+                                <img src="media/archived/grin-probe-drawing.png" alt="Mechanical drawing of the connector sewn onto small animals for in vivo imaging">
+                                <figcaption>Connector mechanical drawing</figcaption>
+                            </figure>
+                            <figure>
+                                <img src="media/archived/grin-lens-polishing-films.jpeg" alt="Set of five polishing films used for GRIN lens polishing, from 30 micron to ADS grade">
+                                <figcaption>Polishing film set (30&ndash;1&nbsp;&micro;m, ADS)</figcaption>
+                            </figure>
+                            <figure>
+                                <img src="media/archived/grin-result-fibers.jpg" alt="Fluorescent in vivo image of tissue paper fibers taken through the polished GRIN probe">
+                                <figcaption>Result: fibers of a tissue paper</figcaption>
+                            </figure>
+                            <figure>
+                                <img src="media/archived/grin-result-pollens.jpg" alt="Fluorescent in vivo image of pollen grains taken through the polished GRIN probe">
+                                <figcaption>Result: pollens</figcaption>
+                            </figure>
+                        </div>
+                    </section>
+
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Wayne Pan. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>
